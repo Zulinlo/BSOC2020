@@ -27,3 +27,10 @@ header{
     margin: 20% 30%;
     text-align: center;
 }
+
+.welcome-text h1{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
