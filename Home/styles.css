@@ -6,12 +6,11 @@
     width: 1170px;
     margin:auto;
 }
-header[
+header{
     background: url("q.jpg");
     height: 100vh;
-    -webkit-background-size:cover;
-    background-size:cover;
-    background-position: center center;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
     position: relative;
-]
-
+}
