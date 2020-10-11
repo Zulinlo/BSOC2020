@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -27,7 +26,7 @@ header{
     position: absolute;
     width: 600px;
     height: 300px;
-    top: 20%;
+    top: 13%;
     left: 0;
     right: 0;
     bottom: 0;
@@ -57,5 +56,3 @@ header{
     background: #ffffff;
     color: #333333;
 }
-=======
->>>>>>> b2a76623b4f280184565a6b919172ef0ed0f1cfd
