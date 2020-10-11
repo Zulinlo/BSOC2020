@@ -7,10 +7,23 @@
     margin:auto;
 }
 header{
-    background: url("q.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6),(rgba(0,0,0,0.6)))url("q.jpg");
     height: 100vh;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
     position: relative;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height:auto;
+}
+
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
 }
