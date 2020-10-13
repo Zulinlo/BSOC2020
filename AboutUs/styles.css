@@ -104,7 +104,8 @@ p {
     border: 2px solid white;
     border-radius: 20px;
     margin-left: 20rem;
-    margin-right: 20rem
+    margin-right: 20rem;
+    text-shadow: 3px 3px 30px #b574f7;
 }
 
 .c6 h2 {
