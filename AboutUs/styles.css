@@ -1,19 +1,12 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 body {
-    background:url("b1.png");
+    background: url("b1.png");
     font-family: 'Poppins', sans-serif;
-    height:100vh;
     background-size: cover;
     background-position: center;
+    margin: 0;
+    display: grid;
+    font-size: 4em;
 }
-
 
 h1 {
     color: #fff;
@@ -23,12 +16,13 @@ h1 {
     margin-bottom: 2rem;
     margin-top: 2rem;
     text-align: center;
+    text-shadow: 3px 3px 10px #b574f7;
 }
 
 h2 {
     color: #fff;
     font-size: 2rem;
-    text-shadow: 2px 2px 8px white;
+    text-shadow: 3px 3px 10px #b574f7;
     font-weight: 40;
     letter-spacing: 2px;
     margin-bottom: 2rem;
@@ -38,7 +32,7 @@ h2 {
 
 p {
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 10;
     margin-bottom: 2rem;
     text-align: center;
@@ -46,12 +40,51 @@ p {
     margin-right: 5rem;
 }
 
+/* Add a black background color to the top navigation */ 
+
+.topnav { 
+    background-color: #333; 
+    overflow: hidden; 
+    position: relative;
+} 
+ 
+/* Style the links inside the navigation bar */ 
+.topnav a { 
+    float: left; 
+    color: #f2f2f2; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-size: 18px; 
+} 
+     
+ /* Change the color of links on hover */ 
+.topnav a:hover { 
+    background-color: #ddd; 
+    color: black; 
+} 
+  
+ /* Add a color to the active/current link */ 
+.topnav a.active { 
+    background-color: #590b80; 
+    color: white; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 .c7 h1 {
     font-size: 5rem;
     text-shadow: 2px 2px 6px white;
     border-radius: 5rem;
     margin-left: 20rem;
     margin-right: 20rem;
+    text-shadow: 2px 2px 30px #b574f7;
 }
 
 .c7 p {
@@ -174,4 +207,97 @@ p {
 .c1 p{
     text-align: right;
     margin-left: 10rem;
+}
+
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+    margin: 0;
+    display: grid;
+    font-size: 14px;
+}
+
+footer{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #ffffff;
+    background-color: #011c39;
+}
+
+.footer > *{
+    flex 1 100%
+}
+.footer-left{
+    margin-right:1.25em;
+    margin-bottom: 2em;
+}
+.footer-left img{
+    width: 50%;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li{
+    line-height: 2em;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer-right{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-right > *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.box a{
+    color: #999999;
+}
+
+.footer-bottom{
+    text-align: center;
+    color: #999999;
+    padding-top: 50px;
+}
+
+.footer-left p{
+    padding-right: 20%;
+    color: #999999;
+}
+
+.socials a{
+    background: #364a62;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.socials a i{
+    color: #e7f2d4
+    padding: 10px 12px;
+    font-size: 20px;
 }
