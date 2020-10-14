@@ -1,0 +1,29 @@
+
+
+<div>
+    <h1>A section of grouped elements</h1>
+    <p>Hello world</p>
+</div>
+
+<div>
+    <h2>Second section of grouped elements</h2>
+    <p>Nice weather today</p>
+</div>
+
+
+<h1>Individual list</h1>
+
+<h2>Unordered list</h2>
+<ul>
+    <li>dot point 1</li>
+    <li>dot point 2</li>
+    <li>dot point 3</li>
+</ul>
+
+<h2>Ordered list</h2>
+<ol>
+    <li>first point</li>
+    <li>second point</li>
+    <li>third point</li>
+</ol>
+
